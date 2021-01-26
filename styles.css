@@ -1,29 +1,47 @@
+
+
+#gallery {
+display: flex;
+flex-flow: row wrap;
+justify-content: space-around;
+padding: 0;
+margin: 0;
+list-style: none;
+}
+
 body {
     background-color: #D9D2D0;
     color: #243840;
     font-family: 'Roboto', sans-serif;
 }
 
-/*
-#88898C Dark Grey
-#736C49 Drab Green
-#A6896F Dark Tan
-*/
-
 header {
     font-weight: bold;
+    text-align: center;
 }
 
 figure {
-    border-radius: 10px;
+    /*border-radius: 10px;
     width: 250px;
     background-color: #88898C;
-    padding: 1em;
+    padding: 1em;*/
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    background-color: #A6896F;
  }
 
  figure img {
-     width: 100%;
-     max-width: 100%;
-     border-radius: 10px;
-     border: .2em solid #243840;
+    /*width: 100%;
+    max-width: 100%;
+    border-radius: 10px;
+    border: .2em solid #243840;*/
+ }
+
+ figure figcaption {
+    padding: 10px;
+ }
+
+ .title {
+     font-weight: bold;
  }
