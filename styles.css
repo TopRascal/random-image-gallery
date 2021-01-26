@@ -1,0 +1,29 @@
+body {
+    background-color: #D9D2D0;
+    color: #243840;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*
+#88898C Dark Grey
+#736C49 Drab Green
+#A6896F Dark Tan
+*/
+
+header {
+    font-weight: bold;
+}
+
+figure {
+    border-radius: 10px;
+    width: 250px;
+    background-color: #88898C;
+    padding: 1em;
+ }
+
+ figure img {
+     width: 100%;
+     max-width: 100%;
+     border-radius: 10px;
+     border: .2em solid #243840;
+ }
